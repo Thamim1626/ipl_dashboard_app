@@ -1,0 +1,77 @@
+.home-contanier {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-sm-bg.png');
+  background-size: cover;
+  min-height: 100vh;
+  width: 100vw;
+}
+
+.home-header {
+  display: flex;
+  align-items: center;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+.home-logo {
+  width: 40px;
+  margin-right: 8px;
+}
+
+.home-heading {
+  font-size: 36px;
+  color: white;
+}
+
+@media (min-width: 768px) {
+  .home-contanier {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/ipl-dashboard-lg-bg.png');
+  }
+  .home-logo {
+    width: 80px;
+    margin-right: 12px;
+  }
+
+  .home-heading {
+    font-size: 48px;
+  }
+
+  .home-header {
+    display: flex;
+    align-items: center;
+    margin-top: 22px;
+    margin-bottom: 22px;
+  }
+}
+
+.home-team-list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 16px;
+}
+.home-team-item {
+  display: flex;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 14px;
+  margin: 12px;
+}
+
+.home-list-image {
+  width: 120px;
+  margin-right: 18px;
+}
+
+.home-item-name {
+  font-size: 38px;
+  max-width: 280px;
+  font-weight: bold;
+  color: white;
+}
